@@ -1,0 +1,66 @@
+/* ================================================= */
+/* ---------------- Menu CSS ---------------- */
+/* ================================================= */
+/* Header Styling */
+.header {
+    display: flex;
+    background-color: #7DC576; /* Lime Green */
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  }
+  .header-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    align-items: center;
+    float: left;
+  }
+  .header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+
+
+  }
+  .navbar {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-nav {
+    justify-content: center;
+  }
+  .profile-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: none;
+  }
+  /* Navigation Bar Styling */
+  /* Forest Green */
+
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    margin-top: 0;
+
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #FFD700; /* Gold */
+    background-color: #006400; /* Darker Green */
+    border-radius: 5px;
+  }
